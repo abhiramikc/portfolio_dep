@@ -1,0 +1,61 @@
+.experience-container {
+  h1{
+    font-size: xx-large;
+    padding-left: 83px;
+  }
+}
+h4 {
+  font-weight: 400;
+}
+.experience {
+  margin-left: 150px;;
+  margin-right: 150px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.lighter-div {
+  background-color: #3d3e42;
+  width: 80vw;
+  padding: 10vh;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+}
+.lighter-div .exp {
+  height: 30vh;
+  position: relative;
+  margin-left: 10vh;
+}
+.exp h2 {
+  color: #fbfbfb;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.exp h2::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  color: #fec86a;
+  background-color: #fec86a;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 7.5%;
+  left: -5%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 5px #fec86a;
+}
+.exp-desc::before {
+   content: "";
+   height: 190px;
+   width: 2.5px;
+   background-color: #fbfbfb;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 63%;
+   left: -5%;
+}
